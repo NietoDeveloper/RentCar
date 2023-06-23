@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/myCustom.css">
+
+    <title>Nieto Cars</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                Nieto Cars
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link ">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="rent.html" class="nav__link">Rent</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="registration.html" class="nav__link">Registration</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Togglar Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--************* MAIN CODE ****************-->
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="shapeX shape__big"></div>
+            <div class="shapeX shape__small"></div>
+
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Rent a Car in Bogota
+                    </h1>
+                    <h2 class="home__subtitle">
+                        Kia Picanto
+                    </h2>
+                    <h3 class="home__elec">
+                        99 us/Dollars at Day
+                    </h3>
+                </div>
+
+                <img src="assets/img/Front-Black.png" alt="" class="home__img">
+                <div class="home__car">
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-temp-cold-line"></i>
+                        </div>
+                        <h2 class="home__car-number">A.A.</h2>
+                        <h3 class="home__car-name">5 Passengers</h3>
+
+                    </div>   
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-flashlight-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">Gas-Gasoline</h2>
+                        <h3 class="home__car-name">550 km Autonomus</h3>
+
+                    </div>
+
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-dashboard-2-line"></i>
+                        </div>
+                        <h2 class="home__car-number">83 HP</h2>
+                        <h3 class="home__car-name">1.250 C.C.</h3>
+
+                    </div>
+
+                </div>
+
+                <a href="rent.html" class="home__button">Rent</a>
+
+                <div class="slider__bg">
+                <div class="slider__bg-navBtn active"></div>
+                </div>
+
+
+
+            </div>
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="home__social-icon"><i class="ri-instagram-fill"></i></a>
+                <a href="#" class="home__social-icon"><i class="ri-twitter-fill"></i></a>
+            </div>
+
+        </section>
+         <!--==================== GALLERY BANNER ====================-->
+         <section class="gallery section">
+            <div class="gallery__container container grid">
+                <video class="video__slide active" src="assets/video/vid_1.mp4" autoplay muted loop></video>
+            </div>
+
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="assets/img/Interior.jpg" alt="" class="about__img">
+
+                    <div class="about__card">
+                        <h3 class="about__card-title">12 Cars in our Flote</h3>
+                        <p class="about__card-description">Confortables Vehicles</p>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">Machines With <br> Future  Eco Technology</h2>
+                    <p class="about__description">See the future with high-performance Gas cars produced by
+                        renowned brands. They feature futuristic builds and designs with
+                        new and innovative platforms that last a long time.</p>
+
+                    <a href="#" class="button">Know More</a>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <!--==================== FEATURED ====================-->
+        <section class="featured section" id="featured">
+            <h2 class="section__title">Cars Models</h2>
+            <div class="featured__container container">
+                <ul class="featured__filters">
+                    <li>
+                        <button class="featured__item" data-filter=".tesla">
+                            <img src="assets/img/logo3.png" alt="">
+
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".audi">
+                            <img src="assets/img/logo2.png" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".porsche">
+                            <img src="assets/img/logo1.png" alt="">
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="featured__content grid">
+
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Kia</h1>
+                        <h3 class="featured__subtitle">Picanto</h3>
+                        <img src="assets/img/Front-Black.png" alt="" class="featured__img">
+                        <h3 class="featured__price">$99 us at Day</h3>
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+
+                    </article>
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Tesla</h1>
+                        <h3 class="featured__subtitle">Model 3</h3>
+                        <img src="assets/img/featured2.png" alt="" class="featured__img">
+                        <h3 class="featured__price">$45,900</h3>
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+
+                    </article>
+                    <article class="featured__card mix audi">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Audi</h1>
+                        <h3 class="featured__subtitle">E-tron</h3>
+                        <img src="assets/img/featured3.png" alt="" class="featured__img">
+                        <h3 class="featured__price">$175,900</h3>
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+
+                    </article>
+                    <article class="featured__card mix porsche">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Porsche</h1>
+                        <h3 class="featured__subtitle">Boxster 987</h3>
+                        <img src="assets/img/featured4.png" alt="" class="featured__img">
+                        <h3 class="featured__price">$126,900</h3>
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                </div>
+            </div>
+
+        </section>
+       
+
+        <!--==================== OFFER ====================-->
+        <section class="offer section">
+
+            <div class="offer__container container grid">
+
+                <img src="assets/img/offer-bg.png" alt="" class="offer__bg">
+
+                <div class="offer__data">
+                    <h2 class="section__title offer__title">
+                        Do You Want To Receive <br> Special Offers?
+                    </h2>
+
+                    <p class="offer__description">Be the first to receive all the information about our
+                        products and new cars by email by subscribing to our
+                        mailing list.</p>
+
+                    <a href="#" class="button">Subscribe Now</a>
+                </div>
+
+                <img src="assets/img/offer.png" alt="" class="offer__img">
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="shapeX shape__big"></div>
+        <div class="shapeX shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class=""></i>
+                    Nieto Cars
+                </a>
+                <p class="footer__description">
+                    We offer the best cars of <br>
+                    the most recognized brands in <br>
+                    the world.
+                </p>
+            </div>
+
+
+            <div class="footer__content">
+
+                <h3 class="footer__title">Company </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__links">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">Cars</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">History</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">Registration</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__links">Cost</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">Reserves</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__links">Services</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title"> Follow us </h3>
+
+                <ul class="footer__social">
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; <a target="_blank" href="https://nietodeveloper.github.io/Portafolio/" class="footer__dev-link">Created by Manuel Nieto</a>®Copyrights2023<p id="date"></p>
+        </span>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+
+    <!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
+    <script src="assets/js/scrollrevealAnimation.min.js"></script>
+
+    <!--=============== SWIPER JS - PRODUCT SLIDER ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP JS - FILTER PRODUCT ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+
+
+</html>
