@@ -1,0 +1,82 @@
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+.submenu {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: hsl(219, 4%, 7%);
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: hsl(219, 4%, 7%);
+}
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid hsl(219, 69%, 56%);
+    background: hsl(219, 4%, 7%);
+    border-radius: 15px;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: center;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.img-carrito{
+    text-align: center;
+}
+.carrito {
+    text-align: center;
+}
