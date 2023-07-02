@@ -1215,3 +1215,28 @@ transform: scale(1.2);
   align-content: center;
   align-items: center;
 }
+.info-contact{
+  background-color: silver;
+  margin: 20px auto;
+  border: 300px 400px;
+  border-radius: 20px;
+  padding: 30px 15px;
+  min-width: 100px;
+  max-width: 400px;
+  min-height: 300px;
+  max-height: 600px;
+  box-shadow: 2px 2px 20px black;
+}
+.info-contact h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.info-contact p{
+  font-size: 16px;
+  text-align: center;
+}
+.info-contact h3{
+  text-align: center;
+  color: blue;
+  font-size: 13px;
+}
