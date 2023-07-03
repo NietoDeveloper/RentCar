@@ -995,7 +995,7 @@ transform: scale(1.2);
     margin-bottom: 4rem;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 767px) {
   .section{
     padding: 7rem 0 2rem;
   }
