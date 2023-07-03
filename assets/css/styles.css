@@ -39,7 +39,7 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 968px) {
   :root {
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
@@ -176,7 +176,7 @@ font-size: 1.25rem;
   font-size: 1.25rem;
   cursor: pointer;
 }
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 767px) {
   .nav__menu{
     position: fixed;
     background-color: hsl(0, 0%, 100%, .1);
@@ -744,7 +744,9 @@ transform: scale(1.2);
 .featured__card:hover .featured__img{
   transform: translateX(-.30rem);
 }
+.featured__button:hover{
 
+}
 
 /* Active link featured */
 
@@ -993,11 +995,15 @@ transform: scale(1.2);
     margin-bottom: 4rem;
   }
 }
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 767px) {
   .section{
     padding: 7rem 0 2rem;
   }
-  
+  .nav{
+    /* margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: calc(var(--header-height)+ 1.5rem); */
+  }
   .nav__toggle,
   .nav__close{
     display: none;
