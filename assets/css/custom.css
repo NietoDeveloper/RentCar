@@ -55,34 +55,42 @@ ul {
 
 .card {
     text-align: center;
-    border: 1px solid hsl(219, 69%, 56%);
-    background: hsl(219, 4%, 7%);
-    border-radius: 15px;
+    border: 3px solid hsl(219, 73%, 24%);
+    background: hsl(180, 3%, 7%);
+    border-radius: 30px;
+    width: 250px;
+    height: 330px;
+    margin: 15px 60px;
+    padding: 5px 2px;
+    
 }
 @media (min-width: 250px) {
     .card {
-        text-align: center;
+        position: flex;
+        display: flex;
+        align-items: center;
     }
 }
 .info-card  {
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .info-card p, 
 .card h4 {
+    margin-top: 15px;
     margin-bottom: 5px;
+    font-size: 18px;
 }
 .info-card .precio {
-    text-decoration: line-through;
     font-size: 18px;
     margin-top: 10px;
 }
 .info-card .precio span {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
 }
 .img-carrito{
-    text-align: center;
+    text-align: right;
 }
 .carrito {
     text-align: center;
