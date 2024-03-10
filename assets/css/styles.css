@@ -903,21 +903,25 @@ transform: scale(1.2);
   font-size: 1.25rem;
 
 }
-.footer__copy{
+.footer__copy {
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   text-align: center;
-  font-size: var(--smaller-font-size);
-  color: rgb(199, 158, 47);
+  font-size: 13px;
 }
-.footer__dev-link{
-  color: #F76400;
+.footer__copy p {
+  color: rgb(188, 255, 4);
+  font-size: 11x;
 }
-.footer__dev-link::before{
- 
-  text-shadow: 0 0 12px hsl(0, 0%, 100%);
-  transition: .3s;
-  animation: a 3s infinite; 
+.footer__dev-link {
+  color: rgb(188, 255, 4);
+  font-size: 13px;
+}
+.footer__copy,
+.footer__dev-link:hover {
+  color: rgb(248, 4, 4);
+  transition: 0.3s;
+  animation: a 3s infinite;
 }
 
 /*=============== SCROLL BAR ===============*/
