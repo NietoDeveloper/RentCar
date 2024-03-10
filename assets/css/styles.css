@@ -744,9 +744,6 @@ transform: scale(1.2);
 .featured__card:hover .featured__img{
   transform: translateX(-.30rem);
 }
-.featured__button:hover{
-
-}
 
 /* Active link featured */
 
@@ -1006,11 +1003,6 @@ transform: scale(1.2);
 @media screen and (min-width: 767px) {
   .section{
     padding: 7rem 0 2rem;
-  }
-  .nav{
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: calc(var(--header-height)+ 1.5rem); */
   }
   .nav__toggle,
   .nav__close{
