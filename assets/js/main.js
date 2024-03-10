@@ -171,3 +171,4 @@ sr.reveal(`.about__data, .offer__img, .home__social-icon`, {origin: 'right'});
 sr.reveal(`.features__map, .slider__bg`, {delay:600, origin: 'bottom'});
 sr.reveal(`.features__card`, {interval: 300});
 sr.reveal(`.featured__card, .logos__content, .footer__content`, {interval: 100});
+sr.reveal(`date`, {interval:350}) 
