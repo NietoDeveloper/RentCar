@@ -17,7 +17,7 @@
   --white-color: #fff;
   /* --body-color: hsl(219, 4%, 4%); */
   
-  --body-color: hsl(240, 79%, 26%);
+  --body-color: hsl(240, 56%, 38%);
   --container-color: hsl(219, 4%, 7%);
 
   /*========== My Custom Font and typography ==========*/
@@ -458,7 +458,7 @@ transform: scale(1.2);
 
 }
 .about__img{
-  width: 380px;
+  width: 310px;
   border-radius: .5rem;
 
 }
@@ -884,16 +884,19 @@ transform: scale(1.2);
   display: flex;
   flex-direction: column;
   row-gap: .5rem;
-
+  color: rgb(188, 255, 4)
+}
+.footer__links:hover {
+  color: rgb(248, 4, 4);
 }
 .footer__link,
 .footer__social-link{
-  color: var(--text-color);
+  color: rgb(188, 255, 4);
   transition: .3s;
 }
 .footer__link:hover,
 .footer__social-link:hover{
-  color: var(--title-color);
+  color: rgb(248, 4, 4);
 }
 .footer__social{
   display: flex;
@@ -903,20 +906,21 @@ transform: scale(1.2);
   font-size: 1.25rem;
 
 }
-.footer__copy {
+.footer__copy{
   display: block;
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   text-align: center;
-  font-size: 13px;
+  font-size: var(--smaller-font-size);
 }
 .footer__copy p {
   color: rgb(188, 255, 4);
   font-size: 11x;
 }
-.footer__dev-link {
+.footer__dev-link{
   color: rgb(188, 255, 4);
   font-size: 13px;
 }
+
 .footer__copy,
 .footer__dev-link:hover {
   color: rgb(248, 4, 4);
@@ -924,7 +928,6 @@ transform: scale(1.2);
   animation: a 3s infinite;
 }
 
-/*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
   width: 0.5rem;
   background-color: hsl(219, 4%, 16%);
@@ -941,24 +944,27 @@ transform: scale(1.2);
 }
 
 /*=============== SCROLL UP ===============*/
-.scrollup {
+.scrollup{
   position: fixed;
-  right: 10px;
+  right: 1rem;
   bottom: -30%;
   background-color: rgb(188, 255, 4);
   display: inline-flex;
-  padding: 0.35rem;
-  border-radius: 0.5rem;
-  font-size: 0.7rem;
+  padding: .45rem;
+  border-radius: .5rem;
+  font-size: 1.15rem;
   color: var(--white-color);
   z-index: var(--z-tooltip);
-  transition: 0.6s;
+  transition: .4s;
 }
-.scrollup:hover {
+.scrollup:hover{
   transform: translateY(-1rem);
 }
 
-.show-scroll {
+
+/* Show Scroll Up*/
+
+.show-scroll{
   bottom: 3rem;
   color: blue;
 }
@@ -1032,7 +1038,7 @@ transform: scale(1.2);
 /* For large devices */
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1040px) {
   .container{
     margin-left: auto;
     margin-right: auto;
@@ -1205,6 +1211,11 @@ transform: scale(1.2);
   }
 }
 
+
+
+
+
+
 .map{
   max-width: 350px;
   min-width: 100px;
@@ -1238,7 +1249,3 @@ transform: scale(1.2);
   font-size: 15px;
   margin: 30px auto;
 }
-
-
-
-
