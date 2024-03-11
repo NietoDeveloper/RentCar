@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 listaCurso.addEventListener('click', (e) => {
     e.preventDefault();
 
-    if(e.target.classList.contains('agregar-carrito')) {
+    if (e.target.classList.contains('agregar-carrito')) {
         //Se realiza traversing a fin de llegar al container del curso para poder leer los datos 
         const agregaCurso = e.target.parentElement.parentElement;
         // console.log(agregaCurso);
@@ -23,7 +23,7 @@ listaCurso.addEventListener('click', (e) => {
 
 carrito.addEventListener("click", eliminarCurso);
 
-function eliminarCurso (e) {
+function eliminarCurso(e) {
     // console.log(e.target.classList.contains("borrar-curso"));
     if (e.target.classList.contains("borrar-curso")) {
         // console.log(e.target.getAttribute("data-id"));
@@ -32,11 +32,11 @@ function eliminarCurso (e) {
         // carritoArray = carritoArray.filter(agregaCurso => agregaCurso.id !== elimina)
 
         carritoArray = carritoArray.filter(curso => {
-            if(curso.id === elimina) {
+            if (curso.id === elimina) {
                 curso.cantidad--;
                 if (curso.cantidad < 1) {
                     delete curso;
-                }else {
+                } else {
                     return curso;
                 }
             }
@@ -44,7 +44,7 @@ function eliminarCurso (e) {
                 return curso;
             }
         })
-        elementoHtml();   
+        elementoHtml();
     }
 }
 
@@ -68,15 +68,15 @@ function leerDatos(agregaCurso) {
     // console.log(cursoSleccionado);
     //Se revisa si el elemento existe
     const existe = carritoArray.some((agregaCurso) => agregaCurso.id === cursoSleccionado.id)
-    if(existe) {
+    if (existe) {
         carritoArray.forEach(agregaCurso => {
             if (agregaCurso.id === cursoSleccionado.id) {
                 agregaCurso.cantidad++;
                 return agregaCurso
             }
         })
-    }else {
-        carritoArray = [...carritoArray, cursoSleccionado]; 
+    } else {
+        carritoArray = [...carritoArray, cursoSleccionado];
     }
     // console.log(existe);
     //Se crea y se agrega en el array el curso seleccionado. 
