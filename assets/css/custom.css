@@ -10,6 +10,7 @@
 ul {
     list-style: none;
 }
+
 .submenu {
     position: relative;
     text-align: center;
@@ -17,13 +18,14 @@ ul {
     margin-top: 40px;
 }
 
-.submenu #carrito{
+.submenu #carrito {
     display: none;
     min-width: 100px;
     align-items: center;
     text-align: center;
 }
-.submenu:hover #carrito{
+
+.submenu:hover #carrito {
     display: block;
     position: left;
     margin-left: 10px;
@@ -32,13 +34,14 @@ ul {
     max-width: 700px;
 
 
-    top:100%;
+    top: 100%;
     z-index: 1;
     background-color: hsl(219, 4%, 7%);
     padding: 20px;
     min-height: 300px;
     min-width: 100px;
 }
+
 .vacio {
     padding: 10px;
     background-color: crimson;
@@ -46,11 +49,13 @@ ul {
     border-radius: 10px;
     color: hsl(219, 4%, 7%);
 }
+
 #lista-cursos .row {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .agregar-carrito {
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 .card {
@@ -62,8 +67,9 @@ ul {
     height: 330px;
     margin: 15px 60px;
     padding: 5px 2px;
-    
+
 }
+
 @media (min-width: 250px) {
     .card {
         position: flex;
@@ -71,27 +77,32 @@ ul {
         align-items: center;
     }
 }
-.info-card  {
+
+.info-card {
     padding: 15px 20px;
 }
 
-.info-card p, 
+.info-card p,
 .card h4 {
     margin-top: 15px;
     margin-bottom: 5px;
     font-size: 18px;
 }
+
 .info-card .precio {
     font-size: 18px;
     margin-top: 10px;
 }
+
 .info-card .precio span {
     font-weight: 700;
     font-size: 20px;
 }
-.img-carrito{
+
+.img-carrito {
     text-align: right;
 }
+
 .carrito {
     text-align: center;
 }

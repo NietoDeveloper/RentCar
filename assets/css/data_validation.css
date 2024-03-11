@@ -1,68 +1,72 @@
-
 #registration-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #registration-form div {
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #registration-form label,
-  #registration-form input,
-  #registration-form textarea {
-    width: 200px;
-    padding: 3px;
-    font-size: 15px;
-  }
-  
-  #registration-form button {
-    padding: 4px 10px;
-    margin: 5px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  form {
-    max-width: 280px;
-    height: 580px;
-    margin: 80px auto;
-    padding: 10px;
-    border: 1px solid blue;
-    border-radius: 20px;
-  }
-  
-  label, input[type="submit"], input[type="reset"] {
-    font-size: 1.2em;
-    margin-top: 5px;
-    display: block;
-  }
-  
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"], input[type="email"], input[type="password"] {
-    padding: 5px;
-    width: 100%;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  input[type="submit"], input[type="reset"] {
-    padding: 5px 10px;
-    background-color: blue;
-    border: none;
-    border-radius: 100px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover, input[type="reset"]:hover {
-    background-color: blue;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#registration-form div {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#registration-form label,
+#registration-form input,
+#registration-form textarea {
+  width: 200px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+#registration-form button {
+  padding: 4px 10px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form {
+  max-width: 280px;
+  height: 580px;
+  margin: 80px auto;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+label,
+input[type="submit"],
+input[type="reset"] {
+  font-size: 1.2em;
+  margin-top: 5px;
+  display: block;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  width: 100%;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 5px 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: blue;
+}
