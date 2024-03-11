@@ -71,7 +71,7 @@ body {
 
 h1,
 h2,
-h3 {
+h3, a, p {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
