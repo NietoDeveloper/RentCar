@@ -21,3 +21,46 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/NietoDeveloper/RentCar
+
+
+   Vanilla JS Website
+Overview
+A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No frameworks or dependencies required.
+Features
+
+Responsive design
+Interactive UI with vanilla JS
+Clean and modular CSS styling
+Standard HTML structure
+
+Installation
+
+Clone the repository:git clone <repository-url>
+
+
+Open index.html in a web browser.
+
+Usage
+
+Navigate through the website using the browser.
+All functionality is handled by vanilla JS scripts in the js/ folder.
+Styles are located in the css/ folder.
+
+Project Structure
+├── index.html        # Main HTML file
+├── css/
+│   └── styles.css    # CSS styles
+├── js/
+│   └── main.js       # JavaScript logic
+└── README.md         # This file
+
+Contributing
+
+Fork the repository.
+Create a feature branch (git checkout -b feature-branch).
+Commit changes (git commit -m 'Add feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+
+License
+MIT License. See LICENSE for details.
