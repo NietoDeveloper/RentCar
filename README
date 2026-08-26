@@ -23,7 +23,7 @@ Navigate through the website using the browser.
 All functionality is handled by vanilla JS scripts in ther.
 Styles are located in the css/ folder.
 
-Project Structure
+Project
 ├── index.html        # Main HTML file
 ├── styles .css       # CSS styles
 │  
