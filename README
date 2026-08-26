@@ -218,7 +218,3 @@ RentCar/
 ---
 
 ## 🔄 Rental Browsing Flow
-
-```mermaid
-flowchart LR
-    A([👤 Visitor]) -->|Loads| B[index.html]
