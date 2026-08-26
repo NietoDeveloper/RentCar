@@ -210,6 +210,3 @@ Welcome to **Rent Car Bogota!** This site serves as an e-commerce storefront for
 RentCar/
 └── assets/
     ├── css/          # Stylesheets
-    ├── img/            # Vehicle images
-    ├── js/               # JavaScript logic
-    └── video/              # Promotional / showcase video assets
