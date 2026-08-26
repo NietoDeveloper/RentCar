@@ -25,10 +25,10 @@ Styles are located in the css/ folder.
 
 Project
 ├── index.html        # Main HTML file
-├── styles .css       # CSS
+├── styles .css  
 ├── js/
 │   └── app.js       # JavaScript logic
-└── README.md         # This file
+└── README.md         # 
 
 Contributing
 
