@@ -22,7 +22,3 @@ Open index.htm
 Navigate through the website using the browser.
 All functionality is handled by vanilla JS scripts.
 Styles are located in the css/ folder.
-
-Project
-├── index.html        # Main HTML file
-├── styles .
