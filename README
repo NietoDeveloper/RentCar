@@ -26,6 +26,3 @@ Styles are located in the css/ folder.
 Project
 ├── index.html        # Main HTML file
 ├── styles .
-
-License
-MIT License. See LICENSE for details.
