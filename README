@@ -26,9 +26,6 @@ Styles are located in the css/ folder.
 Project
 ├── index.html        # Main HTML file
 ├── styles .
-├── js/
-Push to the branch (git push origin feature-branch).
-Open a pull request.
 
 License
 MIT License. See LICENSE for details.
