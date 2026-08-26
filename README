@@ -29,7 +29,7 @@ Project
 ├── js/
 
 Create a feature branch (git checkoutnch).
-Commit changes (git commit -m 'Add feature').
+Commit changes (git
 Push to the branch (git push origin feature-branch).
 Open a pull request.
 
