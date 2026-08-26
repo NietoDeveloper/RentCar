@@ -28,10 +28,7 @@ Project
 ├── styles .css  
 ├── js/
 │   └── app.js       # JavaScript logic
-└── README.md         # 
-
-Contributing
-
+└── README.md    
 Fork the repository.
 Create a feature branch (git checkout -b feature-branch).
 Commit changes (git commit -m 'Add feature').
