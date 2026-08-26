@@ -285,24 +285,7 @@ git clone https://github.com/NietoDeveloper/RentCar
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature-branch`).
 3. Commit changes (`git commit -m 'Add feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
 
----
-
-## 👨‍💻 Author
-
-**Manuel Nieto (NietoDeveloper)**
-
----
-
-## 📄 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
-
-<div align="center">
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn" width="100%"/>
 
