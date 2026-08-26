@@ -240,19 +240,3 @@ flowchart LR
 
 <div align="center">
 
-| Layer | Technologies |
-|:------|:-------------|
-| 🎨 **Frontend** | HTML, CSS, JavaScript |
-| ☁️ **Hosting** | GitHub Pages |
-
-</div>
-
----
-
-## ✨ Features
-
-- **Responsive Design:** Adapts cleanly across devices.
-- **Interactive UI:** Powered entirely by vanilla JS.
-- **Clean, Modular CSS Styling:** Organized under `assets/css`.
-- **Standard HTML Structure:** No build tools required.
-
