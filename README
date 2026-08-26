@@ -27,9 +27,7 @@ Project
 ├── index.html        # Main HTML file
 ├── styles .css  
 ├── js/
-│   └── app.js       # JavaScript logic
-└── README.md    
-Fork the repository.
+
 Create a feature branch (git checkoutnch).
 Commit changes (git commit -m 'Add feature').
 Push to the branch (git push origin feature-branch).
