@@ -146,3 +146,164 @@ MIT License. See [LICENSE](./LICENSE) for details.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=RENT%20CAR%20BOGOTA&fontSize=52&fontColor=FFD700&fontAlignY=42&desc=🚗%20Vanilla%20JS%20E-Commerce%20%C2%B7%20Vehicle%20Rental%20Storefront&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%F0%9F%9A%97+Local+Vehicle+Rental+E-Commerce;%E2%9A%A1+Pure+HTML%2C+CSS+%26+JavaScript;%F0%9F%93%B9+Video-Enhanced+Storefront;%F0%9F%93%B1+Responsive%2C+Lightweight+Design;%F0%9F%8F%86+%231+GitHub+Committer+in+Colombia)](https://git.io/typing-svg)
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/NietoDeveloper">
+    <img src="https://img.shields.io/badge/Engineer-Manuel%20Nieto-blue?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://committers.top/colombia#NietoDeveloper">
+    <img src="https://img.shields.io/badge/Committers.top-%231%20Colombia-gold?style=for-the-badge"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/Vanilla-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
+  </a>
+  <a href="https://pages.github.com/">
+    <img src="https://img.shields.io/badge/Hosting-GitHub_Pages-222?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://nietodeveloper.github.io/RentCar/">
+    <img src="https://img.shields.io/badge/🌐_Live_Site-nietodeveloper.github.io-FFD700?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/NietoDeveloper/RentCar">
+    <img src="https://img.shields.io/badge/📂_Source-NietoDeveloper%2FRentCar-000000?style=for-the-badge&logo=github&logoColor=FFD700"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+## 📋 Overview
+
+Welcome to **Rent Car Bogota!** This site serves as an e-commerce storefront for a local vehicle rental business in Bogotá, Colombia. Built entirely with **vanilla JavaScript**, **CSS**, and **HTML** — no frameworks or dependencies required. This build served as the client's MVP, and the design it demonstrated led directly to the client's decision to purchase the full website.
+
+---
+
+## 🗂️ Project Structure
+
+```text
+RentCar/
+└── assets/
+    ├── css/          # Stylesheets
+    ├── img/            # Vehicle images
+    ├── js/               # JavaScript logic
+    └── video/              # Promotional / showcase video assets
+```
+
+---
+
+## 🔄 Rental Browsing Flow
+
+```mermaid
+flowchart LR
+    A([👤 Visitor]) -->|Loads| B[index.html]
+    B --> C[assets/css]
+    B --> D[assets/js/app.js]
+    D -->|Renders| E[assets/img\nVehicle Catalog]
+    D -->|Plays| F[assets/video\nShowcase Media]
+    E --> G([🚗 Rent Car Storefront])
+    F --> G
+
+    style A fill:#FFD700,color:#000,stroke:#FFD700
+    style D fill:#F7DF1E,color:#000,stroke:#F7DF1E
+    style G fill:#000,color:#FFD700,stroke:#FFD700
+```
+
+---
+
+## 🛠️ Technologies Used
+
+<div align="center">
+
+| Layer | Technologies |
+|:------|:-------------|
+| 🎨 **Frontend** | HTML, CSS, JavaScript |
+| ☁️ **Hosting** | GitHub Pages |
+
+</div>
+
+---
+
+## ✨ Features
+
+- **Responsive Design:** Adapts cleanly across devices.
+- **Interactive UI:** Powered entirely by vanilla JS.
+- **Clean, Modular CSS Styling:** Organized under `assets/css`.
+- **Standard HTML Structure:** No build tools required.
+
+---
+
+## 🚀 Setup Instructions
+
+To set up the project locally, follow these steps:
+
+**Step 1 — Clone the repository**
+
+```bash
+git clone https://github.com/NietoDeveloper/RentCar
+```
+
+**Step 2 — Open `index.html`** in a web browser.
+
+---
+
+## 📖 Usage
+
+- Navigate through the website using the browser.
+- All functionality is handled by vanilla JS scripts in the `assets/js/` folder.
+- Styles are located in the `assets/css/` folder.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-branch`).
+3. Commit changes (`git commit -m 'Add feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Manuel Nieto (NietoDeveloper)**
+
+---
+
+## 📄 License
+
+MIT License. See [LICENSE](./LICENSE) for details.
+
+<div align="center">
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn" width="100%"/>
+
+</div>
